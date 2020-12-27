@@ -1,0 +1,122 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+
+
+html,body{
+  height:100%;
+}
+
+@font-face{
+	font-family: opensans;
+	src:url('../fonts/opensans-regular.ttf');
+}
+
+.content{
+	width: calc(100% - 20%);
+	float: right;
+	border-right: 5px solid #8f35e3;
+	border-bottom: 5px solid #8f35e3;
+	border-top: 5px solid #8f35e3;
+}
+
+.sidebar{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: blueviolet;
+	background-image: linear-gradient(to bottom right, blueviolet, purple);
+}
+
+.sidebar-pos{
+	position: absolute;
+
+}
+
+.img-sidebar{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: cover;
+	background-color: yellow;
+	background-image: url('../imagens/pessoa.jpg');
+	position: relative;
+	background-position: center;
+}
+
+.img-sidebar{
+	margin: 50% 30%;
+}
+
+.text-sidebar a{
+	display: block;
+	margin: auto;
+ 	width: 50%;
+	padding: 10px;
+	font-size: 20px;
+	color: black;
+	float: top;
+}
+
+.text-content{
+	font-family: opensans; 
+}
+
+.text-content h2{
+	text-align: center;
+	font-size: 50px;
+	font-family: opensans; 
+}
+
+.text-content h3{
+	text-align: center;
+	margin-top: -20px;
+	font-size: 25px;
+	font-family: opensans; 
+}
+
+.text-content p{
+	text-align: justify-all;
+	margin-top: 20px;
+	margin-left: 10px; 
+}
+
+.content-icones{
+	width: 550px;
+	height: 50px;
+	margin: 20px auto;
+}
+
+.icon-1, .icon-2, .icon-3{
+	margin-left: 100px; 
+}
+
+.icon-1{
+	width: 50px;
+	height: 50px;
+	background-color: yellow;
+	border-radius: 50%;
+	display: inline-block;
+	padding: -4px;
+}
+
+.icon-2{
+	width: 50px;
+	height: 50px;
+	background-color: blue;
+	border-radius: 50%;
+	display: inline-block;
+	padding: -4px;
+}
+
+.icon-3{
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	border-radius: 50%;
+	display: inline-block;
+	padding: -4px;
+}
+

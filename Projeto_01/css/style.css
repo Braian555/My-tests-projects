@@ -1,0 +1,90 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+
+html,body{
+  height:100%;
+}
+
+form{
+	width: 96%;
+	max-width: 600px;
+	margin:30px auto;
+	text-align: center;
+}/*Faz a base para tudo*/
+
+form fieldset{
+	padding: 20px 20px;
+}/*Faz a margem do formulario*/
+
+form legend{
+	font-size: 20px;
+	color: rgb(180,154,250);
+	text-align: left;
+}/*Titulo do formulario*/
+
+form input[type=text]{
+	display: inline-block;
+	font-family: tahoma;
+	margin-top: 30px;
+	width: 80%;
+	padding: 10px 13px;
+	border: 1px solid black;
+}/*Coloca a edição dos 3 primeiros quadrados*/
+
+form input[type=text]:focus, form select:focus, form textarea:focus{
+	outline: 0;
+}/*Tira o foco que diexa a borda maior*/
+
+form select{
+	width: calc(80% + 26px);
+	font-family: tahoma;
+	margin-top: 30px;
+	padding: 10px 13px;
+	display: inline-block;
+	border: 1px solid black;
+}/*Escolher a idade*/
+
+form h2{
+	margin-top: 20px;
+	color: rgb(80,54,150);
+}/*title*/
+
+.radio-input{
+	margin-top: 20px;
+	text-align: left;
+	display: inline-block;
+}/*Edição da checkbox*/
+
+.radio-input{
+	font-size: 16px;
+	margin-left: 13px;
+	color: rgb(180,154,250);
+}
+
+form input[type=submit]{
+	margin-top: 20px;
+	border:0;
+	width: 150px;
+	height: 20px;
+	cursor: pointer;
+	background-color: #1316;
+	font-size: 15px;
+	color: #ccc;
+}/*Enviar emcaixo do formulario*/
+
+form input[type=submit]:focus{
+	outline: 0;
+}/*Tira a base feia kkkk*/
+
+form textarea{
+	border: 1px solid black;
+	margin-top: 30px;
+	width: 80%;
+	height: 100px;
+	padding: 10px 13px;
+	font-family: tahoma;
+	resize: none;
+}/*Edição da observação*/

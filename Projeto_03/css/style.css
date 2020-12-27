@@ -1,0 +1,58 @@
+*{
+ margin:0;
+ padding:0;
+}
+
+
+html,body{
+  height:100%;
+}
+
+.title{
+	text-align: center;
+	text-decoration: underline;
+}/*Decoração do title*/
+
+.texto1, .texto2, .texto3{
+	text-align: left;
+	font-size: 15px;
+	font-family: Verdana;
+	margin-left: 1px;
+}/*Edição base para os primeiros paragrafos*/
+
+.texto1{
+	background-color: rgb(200,200,250);
+}/*Backgroun para texto 1*/
+
+.texto2{
+	background-color: rgb(250,200,200);
+}/*Backgroun para texto 2*/
+
+.texto3{
+	background-color: rgb(200,250,200);
+}/*Backgroun para texto 2*/
+
+
+.imgu{
+	width: 100%;
+	height: 30vw;
+	background-size: cover;/*Faz imagem ficar do tamanho maximo do back.*/
+	background-attachment: fixed;/*deixa imagem parada condorme a barra desce*/
+	background-repeat: no-repeat;/*faz com que a imagem não se multiplique*/
+	background-color: orange;
+	background-position: center;
+	background-image: url("../imagens/sunset.jpg");
+}/*Edição para imagem principal*/
+
+.title-2{
+	text-decoration: underline;/*deixa um sublinado no title*/
+	text-align: center;
+	margin-top: 10px;
+}/*Edição para titulo 2*/
+
+.text-deco{
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	font-size: 20px;
+}/*Edição para ultimo paragrafo*/

@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+	<!--Titulo da 'barra'-->
+	<head>
+		<title>Titulo do meu site</title>
+		<meta charset="utf-8"><!--serve para texto ficar correto-->
+		<link href="css/style.css" type="text/css" rel="stylesheet" /><!--tras a edição do CSS-->
+	</head>
+	<body>
+		<form>
+			<fieldset>
+				<legend>Meu formulário</legend>
+				<div><input type="text" name="none" placeholder="Digite o seu nome"/></div>
+				<div><input type="text" name="e-mail" placeholder="Digite seu endereço de e-mail"/></div>
+				<div><!--Primeiros quadrados e titulo do formulario-->
+					<select name="lista">
+						<option disabled selected>Qual sua idade?</option><!--serve para fazer escolha-->
+						<option value="18">18</option>
+						<option value="30+">30+</option>
+						<option value="50+">50+</option>
+					</select>
+				</div><!--Tipo de seleção lista-->
+
+				<h2>Qual sua cidade</h2><!--serve para fazer escolha com outro formato-->
+				<div class="radio-input">
+				<div>
+					<input type="radio" name="cidade" value="Florianopolis"/><span>Florianopolis</span>
+				</div>
+				
+				<div>
+					<input type="radio" name="cidade" value="São paulo"/><span>São paulo</span>
+				</div>
+				
+				<div>
+					<input type="radio" name="cidade" value="Santa Catarina"/><span>Santa Catarina</span>
+				</div>
+				
+				</div><!--Seleção-->
+
+				<h2>Oque você gosta de comer?</h2>
+				<div class="radio-input">
+				<div>
+					<input type="checkbox" name="cidade[]" value="Carne"/><span>Carne</span>
+				</div>
+				
+				<div>
+					<input type="checkbox" name="cidade[]" value="Fruta"/><span>Fruta</span>
+				</div>
+				
+				<div>
+					<input type="checkbox" name="cidade[]" value="Nada"/><span>Nada</span>
+				</div>
+
+				</div><!--Seleção-->
+				
+				<div>
+					<textarea name="observação" placeholder="Uma observação a mais?"></textarea>
+				</div><!--Observação-->
+
+				<div>
+					<input type="submit" name="ação" value="Enviar" />
+				</div>
+			</fieldset>
+		</form>
+	</body>
+	
+</html>
