@@ -1,4 +1,4 @@
-function(){
+$(function(){
 
     $('.img-slide-footer').click(function(){
        
@@ -15,4 +15,11 @@ function(){
             console.log('Tudo certo');
         });
     });
-};
+
+    $('.img-slide-footer-2').click(function(){
+        $('footer').slideToggle(300, function(){
+            console.log('Tudo certo');
+        });
+    });
+
+});
