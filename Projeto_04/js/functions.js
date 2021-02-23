@@ -15,11 +15,4 @@ $(function(){
             console.log('Tudo certo');
         });
     });
-
-    $('.img-slide-footer-2').click(function(){
-        $('footer').slideToggle(300, function(){
-            console.log('Tudo certo');
-        });
-    });
-
 });
