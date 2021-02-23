@@ -1,4 +1,4 @@
-$(function(){
+function(){
 
     $('.img-slide-footer').click(function(){
        
@@ -15,4 +15,4 @@ $(function(){
             console.log('Tudo certo');
         });
     });
-});
+};
